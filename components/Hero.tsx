@@ -38,7 +38,7 @@ const Hero = () => {
 
   return (
     <div
-      className="min-h-screen w-full bg-fixed bg-cover bg-center bg-no-repeat flex items-center justify-center"
+      className="min-h-screen w-full bg-fixed bg-cover bg-center max-md:object-center bg-no-repeat flex items-center justify-center"
       style={{ backgroundImage: "url('/hero_cakes.jpg')" }}
     >
       <div className="absolute inset-0 bg-fixed z-0" />

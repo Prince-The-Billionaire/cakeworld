@@ -11,7 +11,7 @@ const Credibility = () => {
 
   useEffect(() => {
     // Count-up animation
-    let obj = { count: 0 };
+    const obj = { count: 0 };
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: numberRef.current,

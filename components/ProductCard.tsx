@@ -6,8 +6,6 @@ import gsap from 'gsap'
 const ProductCard = () => {
   const [clicked, setClicked] = useState(false)
   const divref = useRef<HTMLDivElement>(null)
-  const smalldivref = useRef<HTMLDivElement>(null)
-  const pref =useRef<HTMLParagraphElement>(null)
   const handleClick = () => {
     setClicked((prev) => (!prev))
   }
